@@ -1,0 +1,712 @@
+{
+ "_instrucciones": "Para cambiar el estado de un lote, editar 'estado': disponible | reservado | vendido. Los vendidos se ven en rojo y no abren la plancheta. x / y = centro del marcador en % del ancho / alto del plano. tam_marcador = diámetro en % del ancho del plano. Estados iniciales tomados del plano de Wix al 09/11/2026 (8 vendidos en Village, ninguno en Fincas). Para cambiar una plancheta, reemplazar la ruta en 'plancheta'.",
+ "etapas": {
+  "village": {
+   "nombre": "Barrio Village",
+   "plano": "https://static.wixstatic.com/media/d85316_7d79523e8a5d4309a1a70cd78ab7b30b~mv2.png/v1/fit/w_2400,h_2400,al_c,q_85,enc_auto/d85316_7d79523e8a5d4309a1a70cd78ab7b30b~mv2.png",
+   "tam_marcador": 2.5,
+   "lotes": [
+    {
+     "lote": "02-01-01",
+     "estado": "vendido",
+     "x": 63.38,
+     "y": 22.92,
+     "plancheta": "https://static.wixstatic.com/media/d85316_039f4dcd582e461b9fb340bcfc86fa4d~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_039f4dcd582e461b9fb340bcfc86fa4d~mv2.jpg"
+    },
+    {
+     "lote": "02-01-02",
+     "estado": "disponible",
+     "x": 69.49,
+     "y": 22.92,
+     "plancheta": "https://static.wixstatic.com/media/d85316_5dafdb76a096424594fa90213813c4cf~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_5dafdb76a096424594fa90213813c4cf~mv2.jpg"
+    },
+    {
+     "lote": "02-01-03",
+     "estado": "disponible",
+     "x": 63.09,
+     "y": 32.57,
+     "plancheta": "https://static.wixstatic.com/media/d85316_98adef5daff24a79af554eec22139736~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_98adef5daff24a79af554eec22139736~mv2.jpg"
+    },
+    {
+     "lote": "02-01-04",
+     "estado": "disponible",
+     "x": 71.84,
+     "y": 29.55,
+     "plancheta": "https://static.wixstatic.com/media/d85316_32db02857925432ebbcde494b11bdf55~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_32db02857925432ebbcde494b11bdf55~mv2.jpg"
+    },
+    {
+     "lote": "02-01-05",
+     "estado": "disponible",
+     "x": 64.06,
+     "y": 42.82,
+     "plancheta": "https://static.wixstatic.com/media/d85316_1b7dd3ae002848aaba0e001c808665ad~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_1b7dd3ae002848aaba0e001c808665ad~mv2.jpg"
+    },
+    {
+     "lote": "02-01-06",
+     "estado": "disponible",
+     "x": 69.05,
+     "y": 41.01,
+     "plancheta": "https://static.wixstatic.com/media/d85316_79c95cac4e1144d2916d031b49f13c19~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_79c95cac4e1144d2916d031b49f13c19~mv2.jpg"
+    },
+    {
+     "lote": "02-01-07",
+     "estado": "disponible",
+     "x": 73.22,
+     "y": 39.33,
+     "plancheta": "https://static.wixstatic.com/media/d85316_cbc02074bef84f8eb43713db59fa78fc~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_cbc02074bef84f8eb43713db59fa78fc~mv2.jpg"
+    },
+    {
+     "lote": "02-02-01",
+     "estado": "vendido",
+     "x": 77.39,
+     "y": 21.89,
+     "plancheta": "https://static.wixstatic.com/media/d85316_800b88d647a648eb91dfcf27968bebbf~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_800b88d647a648eb91dfcf27968bebbf~mv2.jpg"
+    },
+    {
+     "lote": "02-02-02",
+     "estado": "vendido",
+     "x": 78.11,
+     "y": 26.48,
+     "plancheta": "https://static.wixstatic.com/media/d85316_0010a13817c34161bba656378355e8d6~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_0010a13817c34161bba656378355e8d6~mv2.jpg"
+    },
+    {
+     "lote": "02-02-03",
+     "estado": "vendido",
+     "x": 79.12,
+     "y": 30.58,
+     "plancheta": "https://static.wixstatic.com/media/d85316_58a976f3ede840d88d92bbe4e34be1a5~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_58a976f3ede840d88d92bbe4e34be1a5~mv2.jpg"
+    },
+    {
+     "lote": "02-02-04",
+     "estado": "disponible",
+     "x": 80.24,
+     "y": 34.68,
+     "plancheta": "https://static.wixstatic.com/media/d85316_9a83e41cb1a04ae5a9cd1c718a3ef15e~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_9a83e41cb1a04ae5a9cd1c718a3ef15e~mv2.jpg"
+    },
+    {
+     "lote": "02-02-05",
+     "estado": "disponible",
+     "x": 81.05,
+     "y": 38.9,
+     "plancheta": "https://static.wixstatic.com/media/d85316_a193c582b8374ab1b2d773ad4a733aab~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_a193c582b8374ab1b2d773ad4a733aab~mv2.jpg"
+    },
+    {
+     "lote": "02-02-06",
+     "estado": "disponible",
+     "x": 82.78,
+     "y": 44.57,
+     "plancheta": "https://static.wixstatic.com/media/d85316_71e248a44f4c4f8da9c5b4c21e98680b~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_71e248a44f4c4f8da9c5b4c21e98680b~mv2.jpg"
+    },
+    {
+     "lote": "02-02-07",
+     "estado": "disponible",
+     "x": 84.02,
+     "y": 49.04,
+     "plancheta": "https://static.wixstatic.com/media/d85316_087d1016deee40ee992261b96515a26e~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_087d1016deee40ee992261b96515a26e~mv2.jpg"
+    },
+    {
+     "lote": "02-02-08",
+     "estado": "disponible",
+     "x": 85.44,
+     "y": 54.46,
+     "plancheta": "https://static.wixstatic.com/media/d85316_67e15254163d4cc0a3d06c7cc3c8161a~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_67e15254163d4cc0a3d06c7cc3c8161a~mv2.jpg"
+    },
+    {
+     "lote": "02-02-09",
+     "estado": "disponible",
+     "x": 86.55,
+     "y": 59.53,
+     "plancheta": "https://static.wixstatic.com/media/d85316_2b1f684acf7d482582c296a638e81431~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_2b1f684acf7d482582c296a638e81431~mv2.jpg"
+    },
+    {
+     "lote": "02-03-01",
+     "estado": "disponible",
+     "x": 63.55,
+     "y": 51.63,
+     "plancheta": "https://static.wixstatic.com/media/d85316_64d65bc6f05b429699da87c5df4697a7~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_64d65bc6f05b429699da87c5df4697a7~mv2.jpg"
+    },
+    {
+     "lote": "02-03-02",
+     "estado": "disponible",
+     "x": 69.45,
+     "y": 49.22,
+     "plancheta": "https://static.wixstatic.com/media/d85316_dddd772f783142d09d0d2ae169c484be~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_dddd772f783142d09d0d2ae169c484be~mv2.jpg"
+    },
+    {
+     "lote": "02-03-03",
+     "estado": "disponible",
+     "x": 75.97,
+     "y": 46.92,
+     "plancheta": "https://static.wixstatic.com/media/d85316_fd323102384f46bd8f7b1804b1de1232~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_fd323102384f46bd8f7b1804b1de1232~mv2.jpg"
+    },
+    {
+     "lote": "02-03-04",
+     "estado": "disponible",
+     "x": 63.55,
+     "y": 60.43,
+     "plancheta": "https://static.wixstatic.com/media/d85316_509aabde60d643cd8dad1da18f0a9e38~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_509aabde60d643cd8dad1da18f0a9e38~mv2.jpg"
+    },
+    {
+     "lote": "02-03-05",
+     "estado": "disponible",
+     "x": 77.19,
+     "y": 55.61,
+     "plancheta": "https://static.wixstatic.com/media/d85316_c6ac02a60b5a45b1a0962e0251f52a6f~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_c6ac02a60b5a45b1a0962e0251f52a6f~mv2.jpg"
+    },
+    {
+     "lote": "02-03-06",
+     "estado": "disponible",
+     "x": 77.59,
+     "y": 60.43,
+     "plancheta": "https://static.wixstatic.com/media/d85316_d09da3b71b434c54b0b5d08a1da735eb~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_d09da3b71b434c54b0b5d08a1da735eb~mv2.jpg"
+    },
+    {
+     "lote": "02-04-01",
+     "estado": "vendido",
+     "x": 38.04,
+     "y": 63.57,
+     "plancheta": "https://static.wixstatic.com/media/d85316_63fadffb767a4ba6ac7aecd9d0c23294~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_63fadffb767a4ba6ac7aecd9d0c23294~mv2.jpg"
+    },
+    {
+     "lote": "02-04-02",
+     "estado": "disponible",
+     "x": 42.72,
+     "y": 62.61,
+     "plancheta": "https://static.wixstatic.com/media/d85316_3f844c0abbba4e259095a88d450f81cd~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_3f844c0abbba4e259095a88d450f81cd~mv2.jpg"
+    },
+    {
+     "lote": "02-04-03",
+     "estado": "disponible",
+     "x": 47.1,
+     "y": 58.14,
+     "plancheta": "https://static.wixstatic.com/media/d85316_b976564508f8473b9c22b1a0e7ae4851~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_b976564508f8473b9c22b1a0e7ae4851~mv2.jpg"
+    },
+    {
+     "lote": "02-04-04",
+     "estado": "disponible",
+     "x": 56.67,
+     "y": 54.64,
+     "plancheta": "https://static.wixstatic.com/media/d85316_4372bbe9e2654bb696b04f1874c53598~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_4372bbe9e2654bb696b04f1874c53598~mv2.jpg"
+    },
+    {
+     "lote": "02-04-05",
+     "estado": "vendido",
+     "x": 47.3,
+     "y": 65.38,
+     "plancheta": "https://static.wixstatic.com/media/d85316_4cc66efabf9e425f989aa52a071c4ce7~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_4cc66efabf9e425f989aa52a071c4ce7~mv2.jpg"
+    },
+    {
+     "lote": "02-04-06",
+     "estado": "disponible",
+     "x": 56.67,
+     "y": 65.38,
+     "plancheta": "https://static.wixstatic.com/media/d85316_4e9a9a62c8cd4e5aa49de1b1faf1d523~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_4e9a9a62c8cd4e5aa49de1b1faf1d523~mv2.jpg"
+    },
+    {
+     "lote": "02-05-01",
+     "estado": "disponible",
+     "x": 33.55,
+     "y": 73.7,
+     "plancheta": "https://static.wixstatic.com/media/d85316_84519a21ada640b88d54a3d78f1df202~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_84519a21ada640b88d54a3d78f1df202~mv2.jpg"
+    },
+    {
+     "lote": "02-05-02",
+     "estado": "disponible",
+     "x": 37.12,
+     "y": 73.7,
+     "plancheta": "https://static.wixstatic.com/media/d85316_8377364042c74323b19c2fab83498ef7~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_8377364042c74323b19c2fab83498ef7~mv2.jpg"
+    },
+    {
+     "lote": "02-05-03",
+     "estado": "disponible",
+     "x": 40.79,
+     "y": 73.7,
+     "plancheta": "https://static.wixstatic.com/media/d85316_41122da735604b2e8516ca7d766402f9~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_41122da735604b2e8516ca7d766402f9~mv2.jpg"
+    },
+    {
+     "lote": "02-05-04",
+     "estado": "disponible",
+     "x": 44.66,
+     "y": 73.7,
+     "plancheta": "https://static.wixstatic.com/media/d85316_e6a283044d29495d88214e4d803fcb6e~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_e6a283044d29495d88214e4d803fcb6e~mv2.jpg"
+    },
+    {
+     "lote": "02-05-05",
+     "estado": "vendido",
+     "x": 48.22,
+     "y": 73.7,
+     "plancheta": "https://static.wixstatic.com/media/d85316_cea0699bf3414a82928681bc2d2b72c1~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_cea0699bf3414a82928681bc2d2b72c1~mv2.jpg"
+    },
+    {
+     "lote": "02-05-06",
+     "estado": "vendido",
+     "x": 51.88,
+     "y": 73.7,
+     "plancheta": "https://static.wixstatic.com/media/d85316_a99cfe9dde594827a7a6b8888d4aa3c2~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_a99cfe9dde594827a7a6b8888d4aa3c2~mv2.jpg"
+    },
+    {
+     "lote": "02-05-07",
+     "estado": "disponible",
+     "x": 56.16,
+     "y": 73.7,
+     "plancheta": "https://static.wixstatic.com/media/d85316_03d10670295044178a89edbbd43c2652~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_03d10670295044178a89edbbd43c2652~mv2.jpg"
+    }
+   ]
+  },
+  "fincas": {
+   "nombre": "Barrio Fincas",
+   "plano": "https://static.wixstatic.com/media/d85316_1d30dbd88ef74289ba931fe72c84dd40~mv2.png/v1/fit/w_2400,h_2400,al_c,q_85,enc_auto/d85316_1d30dbd88ef74289ba931fe72c84dd40~mv2.png",
+   "tam_marcador": 2.5,
+   "lotes": [
+    {
+     "lote": "01-01-01",
+     "estado": "disponible",
+     "x": 27.55,
+     "y": 15.21,
+     "plancheta": "https://static.wixstatic.com/media/d85316_48b540ca383549909a2c0c4d26246cce~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_48b540ca383549909a2c0c4d26246cce~mv2.jpg"
+    },
+    {
+     "lote": "01-01-02",
+     "estado": "disponible",
+     "x": 31.02,
+     "y": 15.21,
+     "plancheta": "https://static.wixstatic.com/media/d85316_b745f2e129744425bc4aa1ff44b1037f~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_b745f2e129744425bc4aa1ff44b1037f~mv2.jpg"
+    },
+    {
+     "lote": "01-01-03",
+     "estado": "disponible",
+     "x": 34.9,
+     "y": 15.21,
+     "plancheta": "https://static.wixstatic.com/media/d85316_27e10acb654541fab277fc8edfa7ea9d~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_27e10acb654541fab277fc8edfa7ea9d~mv2.jpg"
+    },
+    {
+     "lote": "01-01-04",
+     "estado": "disponible",
+     "x": 38.77,
+     "y": 15.21,
+     "plancheta": "https://static.wixstatic.com/media/d85316_0aa105d4cf014dc08dcc24dd4d54b677~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_0aa105d4cf014dc08dcc24dd4d54b677~mv2.jpg"
+    },
+    {
+     "lote": "01-01-05",
+     "estado": "disponible",
+     "x": 42.55,
+     "y": 15.21,
+     "plancheta": "https://static.wixstatic.com/media/d85316_d893fef73ee544b7b0a3b97a5b0d968d~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_d893fef73ee544b7b0a3b97a5b0d968d~mv2.jpg"
+    },
+    {
+     "lote": "01-01-06",
+     "estado": "disponible",
+     "x": 46.22,
+     "y": 15.21,
+     "plancheta": "https://static.wixstatic.com/media/d85316_cf927d5e623c425fa872fc9f029c1ca6~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_cf927d5e623c425fa872fc9f029c1ca6~mv2.jpg"
+    },
+    {
+     "lote": "01-01-07",
+     "estado": "disponible",
+     "x": 50.1,
+     "y": 15.21,
+     "plancheta": "https://static.wixstatic.com/media/d85316_4e52f116e9264173b1f208bcce6ed977~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_4e52f116e9264173b1f208bcce6ed977~mv2.jpg"
+    },
+    {
+     "lote": "01-02-01",
+     "estado": "disponible",
+     "x": 29.08,
+     "y": 51.62,
+     "plancheta": "https://static.wixstatic.com/media/d85316_387e46eb04ba42ddaca720d3f1786dab~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_387e46eb04ba42ddaca720d3f1786dab~mv2.jpg"
+    },
+    {
+     "lote": "01-02-02",
+     "estado": "disponible",
+     "x": 29.08,
+     "y": 46.38,
+     "plancheta": "https://static.wixstatic.com/media/d85316_731f3614239a4cbab5265e7f8ce46c21~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_731f3614239a4cbab5265e7f8ce46c21~mv2.jpg"
+    },
+    {
+     "lote": "01-02-03",
+     "estado": "disponible",
+     "x": 29.08,
+     "y": 41.52,
+     "plancheta": "https://static.wixstatic.com/media/d85316_82c66f33dc1740749274e35750951dfa~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_82c66f33dc1740749274e35750951dfa~mv2.jpg"
+    },
+    {
+     "lote": "01-02-04",
+     "estado": "disponible",
+     "x": 29.08,
+     "y": 36.91,
+     "plancheta": "https://static.wixstatic.com/media/d85316_c5ae25e498a242619413852af891334f~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_c5ae25e498a242619413852af891334f~mv2.jpg"
+    },
+    {
+     "lote": "01-02-05",
+     "estado": "disponible",
+     "x": 29.08,
+     "y": 32.42,
+     "plancheta": "https://static.wixstatic.com/media/d85316_a9610950bf9a414ea30d0198f8c73369~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_a9610950bf9a414ea30d0198f8c73369~mv2.jpg"
+    },
+    {
+     "lote": "01-02-06",
+     "estado": "disponible",
+     "x": 30.82,
+     "y": 27.18,
+     "plancheta": "https://static.wixstatic.com/media/d85316_ceb8c8e1de654605a215db549bd5eb92~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_ceb8c8e1de654605a215db549bd5eb92~mv2.jpg"
+    },
+    {
+     "lote": "01-03-01",
+     "estado": "disponible",
+     "x": 37.65,
+     "y": 26.93,
+     "plancheta": "https://static.wixstatic.com/media/d85316_74f07f51ff8944308b4d47721ebde11e~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_74f07f51ff8944308b4d47721ebde11e~mv2.jpg"
+    },
+    {
+     "lote": "01-03-02",
+     "estado": "disponible",
+     "x": 41.63,
+     "y": 26.93,
+     "plancheta": "https://static.wixstatic.com/media/d85316_6ad27cd3cada467cbaf8b044f1388208~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_6ad27cd3cada467cbaf8b044f1388208~mv2.jpg"
+    },
+    {
+     "lote": "01-03-03",
+     "estado": "disponible",
+     "x": 45.41,
+     "y": 26.93,
+     "plancheta": "https://static.wixstatic.com/media/d85316_1a75371a0d844e27afcce35342e1145a~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_1a75371a0d844e27afcce35342e1145a~mv2.jpg"
+    },
+    {
+     "lote": "01-03-04",
+     "estado": "disponible",
+     "x": 49.49,
+     "y": 26.93,
+     "plancheta": "https://static.wixstatic.com/media/d85316_a223f7cfedf64295b83c248b5e9b66b4~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_a223f7cfedf64295b83c248b5e9b66b4~mv2.jpg"
+    },
+    {
+     "lote": "01-03-05",
+     "estado": "disponible",
+     "x": 39.29,
+     "y": 33.42,
+     "plancheta": "https://static.wixstatic.com/media/d85316_72c4dacf6d174ac7ae0ee5ec15b3fbbf~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_72c4dacf6d174ac7ae0ee5ec15b3fbbf~mv2.jpg"
+    },
+    {
+     "lote": "01-03-06",
+     "estado": "disponible",
+     "x": 47.24,
+     "y": 33.54,
+     "plancheta": "https://static.wixstatic.com/media/d85316_1a510e40a870494181d9423afd6359f7~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_1a510e40a870494181d9423afd6359f7~mv2.jpg"
+    },
+    {
+     "lote": "01-03-07",
+     "estado": "disponible",
+     "x": 38.47,
+     "y": 38.4,
+     "plancheta": "https://static.wixstatic.com/media/d85316_0d88ee76f9524a63b57ec33a6d7602ca~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_0d88ee76f9524a63b57ec33a6d7602ca~mv2.jpg"
+    },
+    {
+     "lote": "01-03-08",
+     "estado": "disponible",
+     "x": 46.43,
+     "y": 38.28,
+     "plancheta": "https://static.wixstatic.com/media/d85316_ebef14cefb6e48d0af7c4cae0de117ea~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_ebef14cefb6e48d0af7c4cae0de117ea~mv2.jpg"
+    },
+    {
+     "lote": "01-03-09",
+     "estado": "disponible",
+     "x": 38.16,
+     "y": 43.39,
+     "plancheta": "https://static.wixstatic.com/media/d85316_6a259a25316c448ca071463e9658e866~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_6a259a25316c448ca071463e9658e866~mv2.jpg"
+    },
+    {
+     "lote": "01-03-10",
+     "estado": "disponible",
+     "x": 44.59,
+     "y": 43.39,
+     "plancheta": "https://static.wixstatic.com/media/d85316_fc2fe1760bdb4a5283564eee80f15f55~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_fc2fe1760bdb4a5283564eee80f15f55~mv2.jpg"
+    },
+    {
+     "lote": "01-03-11",
+     "estado": "disponible",
+     "x": 37.24,
+     "y": 48.75,
+     "plancheta": "https://static.wixstatic.com/media/d85316_55b1e51b8b574d548be8c5282a0dd601~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_55b1e51b8b574d548be8c5282a0dd601~mv2.jpg"
+    },
+    {
+     "lote": "01-03-12",
+     "estado": "disponible",
+     "x": 43.26,
+     "y": 48.75,
+     "plancheta": "https://static.wixstatic.com/media/d85316_b6c5ff2a8c254dd9b44eee3862241d33~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_b6c5ff2a8c254dd9b44eee3862241d33~mv2.jpg"
+    },
+    {
+     "lote": "01-03-13",
+     "estado": "disponible",
+     "x": 36.12,
+     "y": 54.11,
+     "plancheta": "https://static.wixstatic.com/media/d85316_40114b5c634e4f1088df486bdaa0a688~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_40114b5c634e4f1088df486bdaa0a688~mv2.jpg"
+    },
+    {
+     "lote": "01-03-14",
+     "estado": "disponible",
+     "x": 42.35,
+     "y": 54.24,
+     "plancheta": "https://static.wixstatic.com/media/d85316_fb639e2279664808aa236ae251731858~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_fb639e2279664808aa236ae251731858~mv2.jpg"
+    },
+    {
+     "lote": "01-04-01",
+     "estado": "disponible",
+     "x": 35.61,
+     "y": 60.6,
+     "plancheta": "https://static.wixstatic.com/media/d85316_d49e31872a4941459cf0ff3ae64dcacb~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_d49e31872a4941459cf0ff3ae64dcacb~mv2.jpg"
+    },
+    {
+     "lote": "01-04-02",
+     "estado": "disponible",
+     "x": 41.53,
+     "y": 60.6,
+     "plancheta": "https://static.wixstatic.com/media/d85316_0ca5082537734eed82f16fc647333abd~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_0ca5082537734eed82f16fc647333abd~mv2.jpg"
+    },
+    {
+     "lote": "01-04-03",
+     "estado": "disponible",
+     "x": 34.8,
+     "y": 64.84,
+     "plancheta": "https://static.wixstatic.com/media/d85316_10bfdf240b394cbe8c4fe12454935e3e~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_10bfdf240b394cbe8c4fe12454935e3e~mv2.jpg"
+    },
+    {
+     "lote": "01-04-04",
+     "estado": "disponible",
+     "x": 41.63,
+     "y": 65.21,
+     "plancheta": "https://static.wixstatic.com/media/d85316_b6346bda44e54f4e908dbf805fb34c09~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_b6346bda44e54f4e908dbf805fb34c09~mv2.jpg"
+    },
+    {
+     "lote": "01-04-05",
+     "estado": "disponible",
+     "x": 32.24,
+     "y": 71.82,
+     "plancheta": "https://static.wixstatic.com/media/d85316_e739b6ea9ece42f1a683be0768333685~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_e739b6ea9ece42f1a683be0768333685~mv2.jpg"
+    },
+    {
+     "lote": "01-04-06",
+     "estado": "disponible",
+     "x": 36.02,
+     "y": 71.82,
+     "plancheta": "https://static.wixstatic.com/media/d85316_7ff2e621fd244a7eb49f06272ee5556f~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_7ff2e621fd244a7eb49f06272ee5556f~mv2.jpg"
+    },
+    {
+     "lote": "01-04-07",
+     "estado": "disponible",
+     "x": 39.69,
+     "y": 71.94,
+     "plancheta": "https://static.wixstatic.com/media/d85316_6576c931ecf14bfa9aa0043bca1c5940~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_6576c931ecf14bfa9aa0043bca1c5940~mv2.jpg"
+    },
+    {
+     "lote": "01-04-08",
+     "estado": "disponible",
+     "x": 43.37,
+     "y": 71.82,
+     "plancheta": "https://static.wixstatic.com/media/d85316_47ce036d7c79464a92e2c31f47885f05~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_47ce036d7c79464a92e2c31f47885f05~mv2.jpg"
+    },
+    {
+     "lote": "01-05-01",
+     "estado": "disponible",
+     "x": 7.24,
+     "y": 65.21,
+     "plancheta": "https://static.wixstatic.com/media/d85316_edf183e38a8243e49f9308aee7e95059~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_edf183e38a8243e49f9308aee7e95059~mv2.jpg"
+    },
+    {
+     "lote": "01-05-02",
+     "estado": "disponible",
+     "x": 11.84,
+     "y": 65.21,
+     "plancheta": "https://static.wixstatic.com/media/d85316_4659df1368194b918aa1cc42060f955a~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_4659df1368194b918aa1cc42060f955a~mv2.jpg"
+    },
+    {
+     "lote": "01-05-03",
+     "estado": "disponible",
+     "x": 16.94,
+     "y": 65.09,
+     "plancheta": "https://static.wixstatic.com/media/d85316_9a515ec1a8184b70841d8660a8f54885~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_9a515ec1a8184b70841d8660a8f54885~mv2.jpg"
+    },
+    {
+     "lote": "01-05-04",
+     "estado": "disponible",
+     "x": 21.53,
+     "y": 65.09,
+     "plancheta": "https://static.wixstatic.com/media/d85316_acacd8b147b646338ac6b4f037a0df32~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_acacd8b147b646338ac6b4f037a0df32~mv2.jpg"
+    },
+    {
+     "lote": "01-05-05",
+     "estado": "disponible",
+     "x": 26.12,
+     "y": 65.21,
+     "plancheta": "https://static.wixstatic.com/media/d85316_c51e219c65854659b7e868a9f1e31c76~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_c51e219c65854659b7e868a9f1e31c76~mv2.jpg"
+    },
+    {
+     "lote": "01-05-06",
+     "estado": "disponible",
+     "x": 16.94,
+     "y": 71.82,
+     "plancheta": "https://static.wixstatic.com/media/d85316_72c785c8922a4be58398f39be92d064b~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_72c785c8922a4be58398f39be92d064b~mv2.jpg"
+    },
+    {
+     "lote": "01-05-07",
+     "estado": "disponible",
+     "x": 21.22,
+     "y": 71.94,
+     "plancheta": "https://static.wixstatic.com/media/d85316_4bcf729521e4470f97bb549ff0e3b74d~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_4bcf729521e4470f97bb549ff0e3b74d~mv2.jpg"
+    },
+    {
+     "lote": "01-05-08",
+     "estado": "disponible",
+     "x": 25.41,
+     "y": 71.94,
+     "plancheta": "https://static.wixstatic.com/media/d85316_40ba2e76bfa34ca3a26acc9d5883a1be~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_40ba2e76bfa34ca3a26acc9d5883a1be~mv2.jpg"
+    },
+    {
+     "lote": "01-05-09",
+     "estado": "disponible",
+     "x": 15.82,
+     "y": 83.29,
+     "plancheta": "https://static.wixstatic.com/media/d85316_9a5794c9327a4717985a105ff56d11d7~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_9a5794c9327a4717985a105ff56d11d7~mv2.jpg"
+    },
+    {
+     "lote": "01-05-10",
+     "estado": "disponible",
+     "x": 19.59,
+     "y": 83.42,
+     "plancheta": "https://static.wixstatic.com/media/d85316_b5a594df6f484753a0b999795c947ac6~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_b5a594df6f484753a0b999795c947ac6~mv2.jpg"
+    },
+    {
+     "lote": "01-05-11",
+     "estado": "disponible",
+     "x": 23.37,
+     "y": 83.42,
+     "plancheta": "https://static.wixstatic.com/media/d85316_d0dd359ff4214220b70cd3b4fc2bd03b~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_d0dd359ff4214220b70cd3b4fc2bd03b~mv2.jpg"
+    },
+    {
+     "lote": "01-05-12",
+     "estado": "disponible",
+     "x": 27.35,
+     "y": 83.29,
+     "plancheta": "https://static.wixstatic.com/media/d85316_d173f13503e64197aff6aa2d8dc503b9~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_d173f13503e64197aff6aa2d8dc503b9~mv2.jpg"
+    },
+    {
+     "lote": "01-06-01",
+     "estado": "disponible",
+     "x": 31.63,
+     "y": 83.42,
+     "plancheta": "https://static.wixstatic.com/media/d85316_13a9bb0a8540447f96f28b8673399ffe~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_13a9bb0a8540447f96f28b8673399ffe~mv2.jpg"
+    },
+    {
+     "lote": "01-06-02",
+     "estado": "disponible",
+     "x": 35.51,
+     "y": 83.42,
+     "plancheta": "https://static.wixstatic.com/media/d85316_04f9c294244b4779886d7c3b515cb160~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_04f9c294244b4779886d7c3b515cb160~mv2.jpg"
+    },
+    {
+     "lote": "01-06-03",
+     "estado": "disponible",
+     "x": 39.39,
+     "y": 83.42,
+     "plancheta": "https://static.wixstatic.com/media/d85316_67c9fba76bbc4ad093b566321724eda6~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_67c9fba76bbc4ad093b566321724eda6~mv2.jpg"
+    },
+    {
+     "lote": "01-06-04",
+     "estado": "disponible",
+     "x": 43.26,
+     "y": 83.42,
+     "plancheta": "https://static.wixstatic.com/media/d85316_db3bdaf1d7894bc4a87846bd843de7c3~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_db3bdaf1d7894bc4a87846bd843de7c3~mv2.jpg"
+    },
+    {
+     "lote": "01-07-01",
+     "estado": "disponible",
+     "x": 56.94,
+     "y": 15.21,
+     "plancheta": "https://static.wixstatic.com/media/d85316_efbb09e0f32545e29ed307504be0571a~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_efbb09e0f32545e29ed307504be0571a~mv2.jpg"
+    },
+    {
+     "lote": "01-07-02",
+     "estado": "disponible",
+     "x": 61.33,
+     "y": 15.21,
+     "plancheta": "https://static.wixstatic.com/media/d85316_f5beffafdf30441483a703b1992110d4~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_f5beffafdf30441483a703b1992110d4~mv2.jpg"
+    },
+    {
+     "lote": "01-08-01",
+     "estado": "disponible",
+     "x": 56.53,
+     "y": 26.93,
+     "plancheta": "https://static.wixstatic.com/media/d85316_7db987fd5872415ea56162d12372a11e~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_7db987fd5872415ea56162d12372a11e~mv2.jpg"
+    },
+    {
+     "lote": "01-08-02",
+     "estado": "disponible",
+     "x": 60.41,
+     "y": 26.93,
+     "plancheta": "https://static.wixstatic.com/media/d85316_9fead93270a54d1a8c1160b7650c0ef9~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_9fead93270a54d1a8c1160b7650c0ef9~mv2.jpg"
+    },
+    {
+     "lote": "01-08-03",
+     "estado": "disponible",
+     "x": 57.65,
+     "y": 33.54,
+     "plancheta": "https://static.wixstatic.com/media/d85316_0e009930b3124142889fab1fa7bce3ba~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_0e009930b3124142889fab1fa7bce3ba~mv2.jpg"
+    },
+    {
+     "lote": "01-08-04",
+     "estado": "disponible",
+     "x": 55.51,
+     "y": 38.9,
+     "plancheta": "https://static.wixstatic.com/media/d85316_04725bf059094efbb3c78232e9aceede~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_04725bf059094efbb3c78232e9aceede~mv2.jpg"
+    },
+    {
+     "lote": "01-08-05",
+     "estado": "disponible",
+     "x": 53.47,
+     "y": 44.14,
+     "plancheta": "https://static.wixstatic.com/media/d85316_3bad6e973f5e4e4ea802bc98c8db7733~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_3bad6e973f5e4e4ea802bc98c8db7733~mv2.jpg"
+    },
+    {
+     "lote": "01-08-06",
+     "estado": "disponible",
+     "x": 51.63,
+     "y": 49.38,
+     "plancheta": "https://static.wixstatic.com/media/d85316_dc3729557a00423a9fd42e1bd61e8e86~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_dc3729557a00423a9fd42e1bd61e8e86~mv2.jpg"
+    },
+    {
+     "lote": "01-08-07",
+     "estado": "disponible",
+     "x": 50.61,
+     "y": 54.49,
+     "plancheta": "https://static.wixstatic.com/media/d85316_6ed71741279242999d3db72e5a0f0755~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_6ed71741279242999d3db72e5a0f0755~mv2.jpg"
+    },
+    {
+     "lote": "01-09-01",
+     "estado": "disponible",
+     "x": 50.71,
+     "y": 60.97,
+     "plancheta": "https://static.wixstatic.com/media/d85316_fd05dd928cdd42d5b6b196a52a8bf20c~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_fd05dd928cdd42d5b6b196a52a8bf20c~mv2.jpg"
+    },
+    {
+     "lote": "01-09-02",
+     "estado": "disponible",
+     "x": 50.71,
+     "y": 66.08,
+     "plancheta": "https://static.wixstatic.com/media/d85316_e7b4d6c33a744eca85d6e837b9489716~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_e7b4d6c33a744eca85d6e837b9489716~mv2.jpg"
+    },
+    {
+     "lote": "01-11-01",
+     "estado": "disponible",
+     "x": 50.51,
+     "y": 84.41,
+     "plancheta": "https://static.wixstatic.com/media/d85316_acdcc89d04f645af89d16acaabeed986~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_acdcc89d04f645af89d16acaabeed986~mv2.jpg"
+    },
+    {
+     "lote": "01-11-02",
+     "estado": "disponible",
+     "x": 54.59,
+     "y": 84.41,
+     "plancheta": "https://static.wixstatic.com/media/d85316_2a9d6c06437f488bb7c813ac5d07ce74~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85,enc_auto/d85316_2a9d6c06437f488bb7c813ac5d07ce74~mv2.jpg"
+    }
+   ]
+  }
+ }
+}

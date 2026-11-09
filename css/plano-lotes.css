@@ -1,0 +1,105 @@
+/* Plano de lotes interactivo — Comarca Las Liebres
+   Colores tomados de la plantilla (#978667 dorado, #24262d oscuro). */
+.plano-lotes {
+  --pl-disponible: #3f8f5b;
+  --pl-reservado: #d39a2c;
+  --pl-vendido: #b44a3f;
+  --pl-acento: #978667;
+  --pl-oscuro: #24262d;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+/* En pantallas chicas el plano no baja de 720px: se desplaza en horizontal para que los lotes se puedan tocar */
+.pl-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.pl-lienzo { position: relative; line-height: 0; min-width: 720px; container-type: inline-size; }
+.pl-plano { width: 100%; height: auto; display: block; }
+
+/* El marcador tapa el círculo numerado del plano original, por eso es opaco y repite el número */
+.pl-lote {
+  position: absolute;
+  width: var(--pl-tam, 2.5%);
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: max(1.5px, .18cqw) solid #fff;
+  padding: 0;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .35);
+  transition: transform .15s ease, box-shadow .15s ease;
+  background: var(--pl-disponible);
+  color: #fff;
+  font: 600 1.15cqw/1 "Montserrat", Helvetica, sans-serif;
+  display: grid;
+  place-items: center;
+}
+.pl-lote.pl--reservado { background: var(--pl-reservado); }
+.pl-lote.pl--vendido { background: var(--pl-vendido); cursor: default; opacity: .85; }
+.pl-lote:not([aria-disabled]):hover,
+.pl-lote:focus-visible {
+  transform: translate(-50%, -50%) scale(1.35);
+  box-shadow: 0 0 0 3px rgba(151, 134, 103, .55), 0 2px 6px rgba(0, 0, 0, .4);
+  outline: none;
+  z-index: 2;
+}
+.pl-lote__tip {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  background: var(--pl-oscuro);
+  color: #fff;
+  font: 500 12px/1.2 "Montserrat", Helvetica, sans-serif;
+  padding: 5px 8px;
+  border-radius: 4px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .15s ease;
+}
+.pl-lote:hover .pl-lote__tip,
+.pl-lote:focus-visible .pl-lote__tip { opacity: 1; }
+
+.pl-leyenda {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 24px;
+  list-style: none; margin: 18px 0 6px; padding: 0;
+  font: 400 14px/1.4 "Montserrat", Helvetica, sans-serif; color: var(--pl-oscuro);
+}
+.pl-leyenda__item { display: flex; align-items: center; gap: 8px; }
+.pl-punto { width: 12px; height: 12px; border-radius: 50%; background: var(--pl-disponible); display: inline-block; }
+.pl-punto.pl--reservado { background: var(--pl-reservado); }
+.pl-punto.pl--vendido { background: var(--pl-vendido); }
+.pl-ayuda { text-align: center; font-size: 13px; color: #4e5559; margin: 0; }
+.pl-error { text-align: center; color: var(--pl-vendido); }
+
+/* Ventana de la plancheta */
+.pl-sin-scroll { overflow: hidden; }
+.pl-modal { position: fixed; inset: 0; z-index: 9999; display: flex; align-items: center; justify-content: center; padding: 16px; }
+.pl-modal[hidden] { display: none; }
+.pl-modal__fondo { position: absolute; inset: 0; background: rgba(36, 38, 45, .82); }
+.pl-modal__caja {
+  position: relative; background: #fff; border-radius: 6px;
+  width: min(760px, 100%); max-height: calc(100vh - 32px);
+  display: flex; flex-direction: column; padding: 20px 20px 22px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, .35);
+}
+.pl-modal__cerrar {
+  position: absolute; top: 6px; right: 10px; border: 0; background: none;
+  font-size: 32px; line-height: 1; color: var(--pl-oscuro, #24262d); cursor: pointer;
+}
+.pl-modal__cab { display: flex; align-items: center; gap: 12px; margin: 0 36px 14px 0; }
+.pl-modal__tit { margin: 0; font: 600 22px/1.2 "Lora", serif; color: #24262d; }
+.pl-modal__estado {
+  font: 600 11px/1 "Montserrat", Helvetica, sans-serif; text-transform: uppercase; letter-spacing: .08em;
+  color: #fff; padding: 5px 8px; border-radius: 3px; background: #3f8f5b;
+}
+.pl-modal__estado.pl--reservado { background: #d39a2c; }
+.pl-modal__estado.pl--vendido { background: #b44a3f; }
+.pl-modal__img { flex: 1 1 auto; min-height: 0; overflow: auto; text-align: center; }
+.pl-modal__img img { max-width: 100%; max-height: calc(100vh - 190px); height: auto; }
+.pl-modal__cta {
+  align-self: center; margin-top: 16px; padding: 12px 26px; border-radius: 3px;
+  background: #978667; color: #fff !important; text-decoration: none;
+  font: 600 13px/1 "Montserrat", Helvetica, sans-serif; text-transform: uppercase; letter-spacing: .08em;
+}
+.pl-modal__cta:hover { background: #24262d; }
+.pl-modal__cta[hidden] { display: none; }
