@@ -1,0 +1,16 @@
+{
+  "files.eol": "\n",
+  "files.encoding": "utf8",
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "html.format.wrapLineLength": 0,
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.root": "/",
+  "search.exclude": {
+    "**/video": true,
+    "**/img": true,
+    "**/css/bootstrap.min.css": true,
+    "**/css/vendors.min.css": true,
+    "**/js/common_scripts.js": true
+  }
+}
