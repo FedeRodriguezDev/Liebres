@@ -51,7 +51,11 @@ Están dentro de los links `https://wa.me/598...`. Buscá el número con Ctrl+Sh
 `js/seguimiento.js` (GA4 `G-G98F0TN8K2`, Google Ads `AW-603022624` y dos píxeles de Meta). Solo se activan en `lasliebres.com.uy`.
 
 ### Imágenes
-⚠️ Hoy se cargan desde Wix (`static.wixstatic.com`). Antes de dar de baja Wix hay que descargarlas, subirlas al repo y reemplazar las rutas.
+Todas las imágenes del sitio están en el repo, en dos tamaños:
+- `img/sitio/g/` (1600 px): imágenes grandes, galerías ampliadas, planos y planchetas.
+- `img/sitio/m/` (900 px): miniaturas y tarjetas.
+
+Para agregar una foto nueva, guardala en esas carpetas con un tamaño similar (no subas originales de varios MB) y usá la ruta en el HTML. Los videos de Wix están en `video/*-720.mp4`.
 
 ## Estructura
 
