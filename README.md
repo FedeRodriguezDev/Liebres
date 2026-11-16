@@ -64,3 +64,4 @@ js/seguimiento.js   analytics y píxeles
 data/lotes.json     lotes: posición, estado y plancheta
 img/  video/        recursos de la plantilla y logos
 ```
+ 
